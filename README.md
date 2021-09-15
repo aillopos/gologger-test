@@ -1,1 +1,1 @@
-# heimdall-gologger-test
+# Loggers in Go - Test
