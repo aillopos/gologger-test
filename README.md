@@ -15,3 +15,10 @@ The endpoint can be one of the well-known log levels, i.e.,
 * error
 
 *fatal* and *panic* are not included, since using them while still running the code would make no sense.
+
+## Benchmark Test of Logrus and Zerolog
+100 logs per log level.
+Run
+```bash
+go test ./... -bench=.
+```
